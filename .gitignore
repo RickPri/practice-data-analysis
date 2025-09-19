@@ -25,3 +25,5 @@ build/
 *.feather
 *.parquet
 # （注意：如果数据文件是项目的一部分且不大，可以不移除这些规则，而是直接 `git add -f large_file.csv` 强制添加）
+
+*.DS_Store
