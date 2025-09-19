@@ -1,0 +1,27 @@
+# Poetry 虚拟环境默认目录
+.venv/
+
+# 通用Python忽略规则
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyb
+*.pyi
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# 环境变量文件
+.env
+.env.local
+
+# 大型数据文件
+*.csv
+*.xlsx
+*.feather
+*.parquet
+# （注意：如果数据文件是项目的一部分且不大，可以不移除这些规则，而是直接 `git add -f large_file.csv` 强制添加）

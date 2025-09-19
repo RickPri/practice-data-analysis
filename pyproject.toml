@@ -1,0 +1,25 @@
+[project]
+name = "kaggle"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "RickPri",email = "1959745078@qq.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.11"
+dependencies = [
+    "tensorflow-decision-forests (==1.5.0)",
+    "tensorflow (==2.13.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "matplotlib (==3.9.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "jupyter (>=1.1.1,<2.0.0)"
+]
